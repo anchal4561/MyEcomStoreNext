@@ -10,7 +10,7 @@ const ProductImages = ({ images }: { images: string[] }) => {
     <div className="space-y-4">
       <Image
         src={images[current]}
-        alt="product image"
+        alt="product images"
         width={1000}
         height={1000}
         className="min-h-[300px] object-cover object-center"
